@@ -1,0 +1,13 @@
+"2.3.1 (created: 2010/04/07 18:56:53)
+
+command! -nargs=1 yt :execute "!youtube_get " + content.location.href.split('&')[0] + " <args> &"
+set runtimepath=/home/darren/.vimperator
+source! /home/darren/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+
+" some bookmark aliases
+command awk :tabopen http://www.vectorsite.net/tsawk_2.html
+command dj :tabopen http://docs.djangoproject.com/en/dev/ref/templates/builtins/
+command djs :tabopen http://code.djangoproject.com/browser/django/trunk/django
+command tmux :tabopen http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/
